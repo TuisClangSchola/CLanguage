@@ -67,15 +67,27 @@ int main()
 
 
 	// ----------------------------------------------------------------------------------
-	// 余談ですがdo-whileを使えば以下のようにきれいに出来ます。
+	// 余談ですが以下のようにきれいに出来ます。
+
+	// whileの場合
+
+	int excA = 0;		// 加算する数値
+	int sumExcA = 0;	// 合計を出す変数
+	while (++excA <= 10)	// iが10以下なら繰り返す
+	{
+		sumExcA += excA;
+	}
+	printf("%d\n", sumExcA);
+
+	// do-whileの場合
 	
-	int exc = 1;
-	int sumExc = 0;
+	int excB = 1;
+	int sumExcB = 0;
 	do
 	{
-		sumExc += exc;
-	} while (++exc <= 10);
-	printf("%d\n", sumExc);
+		sumExcB += excB;
+	} while (++excB <= 10);
+	printf("%d\n", sumExcB);
 	
 
 
