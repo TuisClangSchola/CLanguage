@@ -15,7 +15,7 @@ int main()
 	// —á‚¦‚Î‚P`‚P‚O‚Ì‡Œv‚ğo‚µ‚½‚¢‚Æ‚«‚É¡‚Ü‚Å‚Å‚Ì’m¯‚¾‚¯‚Å‚Í‰º‚Ì‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B
 	
 	int sumA = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
-	printf("%d\n", sumA);
+	printf("sumA : %d\n", sumA);
 
 
 	// ----------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ int main()
 		sumB += i;
 		i++;
 	}
-	printf("%d\n", sumB);
+	printf("sumB : %d\n", sumB);
 
 
 	/*
@@ -46,7 +46,7 @@ int main()
 		sumC += j;
 		j++;
 	} while (j <= 10);	// i‚ª10ˆÈ‰º‚È‚çŒJ‚è•Ô‚·
-	printf("%d\n", sumC);
+	printf("sumC : %d\n", sumC);
 
 
 	/*
@@ -68,6 +68,7 @@ int main()
 
 	// ----------------------------------------------------------------------------------
 	// —]’k‚Å‚·‚ªˆÈ‰º‚Ì‚æ‚¤‚É‚«‚ê‚¢‚Éo—ˆ‚Ü‚·B
+	printf("\n");
 
 	// while‚Ìê‡
 
@@ -77,7 +78,7 @@ int main()
 	{
 		sumExcA += excA;
 	}
-	printf("%d\n", sumExcA);
+	printf("sumExcA : %d\n", sumExcA);
 
 	// do-while‚Ìê‡
 	
@@ -87,7 +88,7 @@ int main()
 	{
 		sumExcB += excB;
 	} while (++excB <= 10);
-	printf("%d\n", sumExcB);
+	printf("sumExcB : %d\n", sumExcB);
 	
 
 
