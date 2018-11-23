@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C_Part15.cpp" />
+    <ClCompile Include="C_Part15Extern.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Part15.h" />
